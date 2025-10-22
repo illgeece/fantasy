@@ -1,6 +1,6 @@
 # Fantasy Helper
 
-Fetch NFL player statistics and visualize them efficiently across Python and Julia.
+Fetch NFL player statistics and visualize them efficiently across Python and Julia. Designed for multi season comparisons and realtime retrieval of statistics and betting information. 
 
 ## Setup
 
@@ -37,9 +37,3 @@ from workflow_example import fetch_and_visualize
 fetch_and_visualize(["Patrick Mahomes", "Tyreek Hill"])
 ```
 
-## Design
-
-- **Minimal complexity**: Core functions are 3-5 lines
-- **Expandable**: Multi-season support, extensible stat selection
-- **Efficient**: Polars (Python) + DataFrames.jl for performance
-- **Cross-language**: CSV bridge between Python and Julia
